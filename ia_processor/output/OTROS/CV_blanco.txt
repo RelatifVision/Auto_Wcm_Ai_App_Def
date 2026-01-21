@@ -1,0 +1,43 @@
+AROLLA
+S D
+J A V I E RE O
+D R
+E
+N
+IA
+P
+& NOHT Y
+J I M E N E Z
++34 652 11 85 34
+javier.jimenez.ramon23@gmail.com
+C/ de Cáceres, 4, Madrid, 28045
+He trabajado como técnico de vídeo e iluminación, instalando, realizando en directo, resolviendo
+problemas de redes, configurando pantallas e iluminación en directos,…. desde que comencé en 2014..
+Dediqué dos años a aprender Python de forma autodidacta. Una vez que me familiaricé con el mundo
+profesional y comprendí lo que demandan las empresas, me arriesgué y me matriculé en un máster de
+Python, programación de IA en 2024 para complementar mis conocimientos.
+También tengo experiencia con aplicaciones de edición de vídeo y audio, software ofimático y, sé cómo
+funcionan.
+/// LIBRERIAS Y FRAMEWORKS
+Excelll Numpy Matplotlib Flask SQLite
+Tableau Pandas Seaborn Django PostgeSQL
+/// PROG. LANGUAGE
+Python HTML CSS
+PYTHON
+DEVELOPER
+/// PERFIL
+/// EXPERIENCIA
+Lights & Video Techniccian 2016 - Actual Video Engineer 2021-Actual
+TELEPIXEL S.L.U. VISUALMAX S.L.
+Instalación de equipos audiovisuales y su, configuración, Configuración del hardware, como los procesadores
+programación y operar en directo, vídeo, mapping, LED, de las imágenes, los escaladores y los emisores, y
+luminarias, láser. ajuste de los paneles LED según necesaria mientras
+.Coordinación de los dispositivos y contenidos se ajusta el I.P.
+audiovisuales.
+/// ESTUDIOS
+Master Python Computation & IA
+2024 – 2025
+FP II Production in audiovisual,
+event and entertaiment
+2014 – 2016
+JSON

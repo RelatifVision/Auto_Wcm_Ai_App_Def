@@ -1,0 +1,342 @@
+[
+    {
+        "text": "FACTURA: 182454 Fecha: 31/12/2024 Socio - Javier Jimenez Ramon - 5535274 CLIENTE Freelance SCM Visualmax Producciones SL - 13237 F84278266 B86749371 Av. Monasterio de Silos 13, Local Avda. de Francisco Quevedo 17 28049, Madrid 28521, Rivas Vaciamadrid Telefono: +34 91 383 96 52 Madrid E-mail: info@freelance.es Descripcion Cantidad Precio Importe Servicios realizados en diciembre. 1.00 1.700,00 1.700,00 + Gastos. 1 59,66 59,66 Por favor al realizar el pago indicar el numero de la factura Base de IVA %IVA Cuota Totales Neto Euros1.700,00 Gastos Euros59,66 1.700,00 21,00 357,00 IVA Euros 357,00 TOTAL Euros2.116,66 Forma de pago Transferencia Bankinter: ES39 0128 0067 7101 0005 7514 CaixaBank: ES56 2100 3702 6913 0086 9663 Santander: ES89 0030 8118 9302 9776 8273 Registro de Cooperativas de la Comunidad de Madrid, Tomo 34, folio 4269, n° inscripcion 28/CM4269 Pagina 1/1 - - Factura simplificada num. 459659 ES1124 99495 Fecha: 14/12/2024 Comprador: Javier Jimenez Ramon TECNITEL CARS SLU 16 C. Gamonal 28031 Madrid NIF: B84880517 NIF: B84880517 Numero de licencia del vehiculo: 12145334-5 Origen: Avenida Del Partenon 5, Madrid 28042 (14/12/2024 03:21) Destino: Calle De Santa Brigida 8, Madrid (14/12/2024 03:38) Cantidad total Concepto Total (EUR) IVA 10% (EUR) Tarifa: precio cerrado 18.45 1.85 20.30 Total (EUR): 18.45 IVA 10%: 1.85 Total IVA incluido (EUR): 20.30 Cobrado •••• 9059: 20.30 - - Factura simplificada num. 476149 ES1124 33871 Fecha: 20/12/2024 Comprador: Javier Jimenez Ramon MOVERSE POR MADRID CON CHOFER SL 22 Calle Utrilla 28043 Madrid NIF: B87143574 NIF: B87143574 Numero de licencia del vehiculo: 1550-LVV Origen: Avenida Del Partenon 5 (20/12/2024 04:23) Destino: Calle De Santa Brigida 8, Madrid (20/12/2024 04:40) Cantidad total Concepto Total (EUR) IVA 10% (EUR) Tarifa: precio cerrado 22.68 2.27 24.95 Total (EUR): 22.68 IVA 10%: 2.27 Total IVA incluido (EUR): 24.95 Cobrado •••• 9059: 24.95 13 de diciembre de 2024 Aqui tienes el recibo de tu viaje, Javier Esperamos que hayas disfrutado de tu viaje de esta manana. Total 14,41 € Precio del viaje 14,41 € Subtotal 14,41 € Pagos Mastercard ••••9059 14,41 € 13/12/24 13:59 Visita tu pagina Uber para obtener mas informacion, como las facturas (cuando esten disponibles). Viajaste con MANUEL UberX 9.92 kilometros | 17 min 3:05 | Calle de Amsterdam 9, 28042 Madrid, ES 3:22 | Calle de Santa Brigida 8, 28004 Madrid, ES La tarifa no incluye los cargos que puede cobrar el banco. Para realizar consultas, ponte en contacto con tu banco.",
+        "entities": [
+            [
+                9,
+                15,
+                "NUMERO_FACTURA"
+            ],
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                294,
+                311,
+                "EMAIL"
+            ]
+        ]
+    },
+    {
+        "text": "FACTURA: 182689 Fecha: 15/01/2025 Socio - Javier Jimenez Ramon - 5535274 CLIENTE Freelance SCM Peak Produccion Tecnica SL - 20644 F84278266 B87032736 Av. Monasterio de Silos 13, Local C / Constelacion de Orion 48 28049, Madrid 28893, Madrid Telefono: +34 91 383 96 52 Madrid E-mail: info@freelance.es Descripcion Cantidad Precio Importe Reparacion, mantenimiento, configuracion y programacion 1 700,00 700,00 Sala Ballesta. Por favor al realizar el pago indicar el numero de la factura Base de IVA %IVA Cuota Totales Neto Euros700,00 700,00 21,00 147,00 IVA Euros 147,00 TOTAL Euros847,00 Forma de pago Transferencia Bankinter: ES39 0128 0067 7101 0005 7514 CaixaBank: ES56 2100 3702 6913 0086 9663 Santander: ES89 0030 8118 9302 9776 8273 Registro de Cooperativas de la Comunidad de Madrid, Tomo 34, folio 4269, n° inscripcion 28/CM4269 Pagina 1/1",
+        "entities": [
+            [
+                9,
+                15,
+                "NUMERO_FACTURA"
+            ],
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                283,
+                300,
+                "EMAIL"
+            ]
+        ]
+    },
+    {
+        "text": "FACTURA: 182909 Fecha: 24/01/2025 Socio - Javier Jimenez Ramon - 5535274 CLIENTE Freelance SCM Visualmax Producciones SL - 13237 F84278266 B86749371 Av. Monasterio de Silos 13, Local Avda. de Francisco Quevedo 17 28049, Madrid 28521, Rivas Vaciamadrid Telefono: +34 91 383 96 52 Madrid E-mail: info@freelance.es Descripcion Cantidad Precio Importe Referencia 25745. Evento: Fitur. Lugar: Ifema. Stand de 'Hilton'. 19-01-2025 Tecnico de contenido de 09:30-18:30. 1 220,00 220,00 20-01-2025 Tecnico de contenido de 08:30-21:30. 1.00 320,00 320,00 21-01-2025 Tecnico de contenido de 09:30-23:00. 1.00 345,00 345,00 22-01-2025 Tecnico de contenido de 08:30-19:30. 1.00 270,00 270,00 23-01-2025 Tecnico de contenido de 08:00-19:00. 1.00 270,00 270,00 24-01-2025 Tecnico de contenido de 09:00-19:00. 1.00 245,00 245,00 25-01-2025 Tecnico de contenido de 09:00-20:00. 1.00 270,00 270,00 26-01-2025 Tecnico de contenido de 09:00-19:00. 1.00 245,00 245,00 Por favor al realizar el pago indicar el numero de la factura Base de IVA %IVA Cuota Totales Neto Euros2.185,00 2.185,00 21,00 458,85 IVA Euros 458,85 TOTAL Euros2.643,85 Forma de pago Transferencia Bankinter: ES39 0128 0067 7101 0005 7514 CaixaBank: ES56 2100 3702 6913 0086 9663 Santander: ES89 0030 8118 9302 9776 8273 Registro de Cooperativas de la Comunidad de Madrid, Tomo 34, folio 4269, n° inscripcion 28/CM4269 Pagina 1/1",
+        "entities": [
+            [
+                9,
+                15,
+                "NUMERO_FACTURA"
+            ],
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                294,
+                311,
+                "EMAIL"
+            ]
+        ]
+    },
+    {
+        "text": "FACTURA: 184326 Fecha: 17/03/2025 Socio - Javier Jimenez Ramon - 5535274 CLIENTE Freelance SCM Visualmax Producciones SL - 13237 F84278266 B86749371 Av. Monasterio de Silos 13, Local Avda. de Francisco Quevedo 17 28049, Madrid 28521, Rivas Vaciamadrid Telefono: +34 91 383 96 52 Madrid E-mail: info@freelance.es Descripcion Cantidad Precio Importe Referencia: 25891 1.00 220,00 220,00 Fecha servicio: 13 marzo Tecnico de contenido para Ifema para el evento Blackworks Por favor al realizar el pago indicar el numero de la factura Base de IVA %IVA Cuota Totales Neto Euros220,00 220,00 21,00 46,20 IVA Euros 46,20 TOTAL Euros266,20 Forma de pago Transferencia Bankinter: ES39 0128 0067 7101 0005 7514 CaixaBank: ES56 2100 3702 6913 0086 9663 Santander: ES89 0030 8118 9302 9776 8273 Registro de Cooperativas de la Comunidad de Madrid, Tomo 34, folio 4269, n° inscripcion 28/CM4269 Pagina 1/1",
+        "entities": [
+            [
+                9,
+                15,
+                "NUMERO_FACTURA"
+            ],
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                294,
+                311,
+                "EMAIL"
+            ]
+        ]
+    },
+    {
+        "text": "FACTURA: 184726 Fecha: 31/03/2025 Socio - Javier Jimenez Ramon - 5535274 CLIENTE Freelance SCM Juan Andres Rojas Pradenas - 24364 F84278266 47034296D Av. Monasterio de Silos 13, Local C/ de la Cruz verde n10 3º 28049, Madrid 28004, Madrid Telefono: +34 91 383 96 52 Madrid E-mail: info@freelance.es Descripcion Cantidad Precio Importe Servicios realizados por el socio. 1.00 300,00 300,00 Por favor al realizar el pago indicar el numero de la factura Base de IVA %IVA Cuota Totales Neto Euros300,00 300,00 21,00 63,00 IVA Euros 63,00 TOTAL Euros363,00 Forma de pago Transferencia Bankinter: ES39 0128 0067 7101 0005 7514 CaixaBank: ES56 2100 3702 6913 0086 9663 Santander: ES89 0030 8118 9302 9776 8273 Registro de Cooperativas de la Comunidad de Madrid, Tomo 34, folio 4269, n° inscripcion 28/CM4269 Pagina 1/1",
+        "entities": [
+            [
+                9,
+                15,
+                "NUMERO_FACTURA"
+            ],
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                281,
+                298,
+                "EMAIL"
+            ]
+        ]
+    },
+    {
+        "text": "FACTURA: 184752 Fecha: 31/03/2025 Socio - Javier Jimenez Ramon - 5535274 CLIENTE Freelance SCM Juan Andres Rojas Pradenas - 24364 F84278266 47034296D Av. Monasterio de Silos 13, Local C/ de la Cruz verde n10 3º 28049, Madrid 28004, Madrid Telefono: +34 91 383 96 52 Madrid E-mail: info@freelance.es Descripcion Cantidad Precio Importe Evento FAMA ACADEMY DISCOVER en el Hotel Canopy 1 300,00 300,00 para los dias 27 y 28 de marzo como tecnico de iluminacion + Taxi. 1 13,21 13,21 Por favor al realizar el pago indicar el numero de la factura Base de IVA %IVA Cuota Totales Neto Euros300,00 Gastos Euros13,21 300,00 21,00 63,00 IVA Euros 63,00 TOTAL Euros376,21 Forma de pago Transferencia Bankinter: ES39 0128 0067 7101 0005 7514 CaixaBank: ES56 2100 3702 6913 0086 9663 Santander: ES89 0030 8118 9302 9776 8273 Registro de Cooperativas de la Comunidad de Madrid, Tomo 34, folio 4269, n° inscripcion 28/CM4269 Pagina 1/1 29 de marzo de 2025 Aqui tienes el recibo de tu viaje, Javier Esperamos que hayas disfrutado de tu viaje de esta tarde. Total 13,21 € Precio del viaje 10,66 € Subtotal 10,66 € Tiempo de espera 2,55 € Visita tu pagina Uber para obtener mas informacion, como las facturas (cuando esten disponibles). Viajaste con Hezekiah Nchedo Share 17.09 kilometros | 35 min 15:57 | Plaza de Legazpi 8, 28045 Madrid, ES 16:32 | Pl. de Carlos Trias Bertran, 4, Tetuan, 28020 Madrid, Espana La tarifa no incluye los cargos que puede cobrar el banco. Para realizar consultas, ponte en contacto con tu banco.",
+        "entities": [
+            [
+                9,
+                15,
+                "NUMERO_FACTURA"
+            ],
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                281,
+                298,
+                "EMAIL"
+            ]
+        ]
+    },
+    {
+        "text": "FACTURA: 185540 Fecha: 28/04/2025 Socio - Javier Jimenez Ramon - 5535274 CLIENTE Freelance SCM TELEPIXEL S.L - 23239 F84278266 B72489826 Av. Monasterio de Silos 13, Local Calle de Pozuelo 14, local 2, 28049, Madrid 28945, Fuenlabrada Telefono: +34 91 383 96 52 Madrid E-mail: info@freelance.es Descripcion Cantidad Precio Importe Tecnico de instalacion y montaje de iluminacion y led 1.00 120,00 120,00 digital. Por favor al realizar el pago indicar el numero de la factura Base de IVA %IVA Cuota Totales Neto Euros120,00 120,00 21,00 25,20 IVA Euros 25,20 TOTAL Euros145,20 Forma de pago Transferencia Bankinter: ES39 0128 0067 7101 0005 7514 CaixaBank: ES56 2100 3702 6913 0086 9663 Santander: ES89 0030 8118 9302 9776 8273 Registro de Cooperativas de la Comunidad de Madrid, Tomo 34, folio 4269, n° inscripcion 28/CM4269 Pagina 1/1",
+        "entities": [
+            [
+                9,
+                15,
+                "NUMERO_FACTURA"
+            ],
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                276,
+                293,
+                "EMAIL"
+            ]
+        ]
+    },
+    {
+        "text": "FACTURA: 186045 Fecha: 12/05/2025 Socio - Javier Jimenez Ramon - 5535274 CLIENTE Freelance SCM DAIGON MULTIMEDIA S.L - 7041 F84278266 B81171746 Av. Monasterio de Silos 13, Local C/ Calle florida Nave n6 28049, Madrid 28670, Villaviciosa de odon Telefono: +34 91 383 96 52 Madrid E-mail: info@freelance.es Descripcion Cantidad Precio Importe Evento: Astrazeneca. Montador de pantalla led 08/05/2025 9:00-18:00. 1 200,00 200,00 Montador de pantalla led 09/05/2025 10:00-21:00. 1 240,00 240,00 Montador de pantalla led 10/05/2025 8:00-15:00. 1 200,00 200,00 Por favor al realizar el pago indicar el numero de la factura Base de IVA %IVA Cuota Totales Neto Euros640,00 640,00 21,00 134,40 IVA Euros 134,40 TOTAL Euros774,40 Forma de pago Transferencia Bankinter: ES39 0128 0067 7101 0005 7514 CaixaBank: ES56 2100 3702 6913 0086 9663 Santander: ES89 0030 8118 9302 9776 8273 Registro de Cooperativas de la Comunidad de Madrid, Tomo 34, folio 4269, n° inscripcion 28/CM4269 Pagina 1/1",
+        "entities": [
+            [
+                9,
+                15,
+                "NUMERO_FACTURA"
+            ],
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                287,
+                304,
+                "EMAIL"
+            ]
+        ]
+    },
+    {
+        "text": "FACTURA: 186045 Fecha: 12/05/2025 Socio - Javier Jimenez Ramon - 5535274 CLIENTE Freelance SCM DAIGON MULTIMEDIA S.L - 7041 F84278266 B81171746 Av. Monasterio de Silos 13, Local C/ Calle florida Nave n6 28049, Madrid 28670, Villaviciosa de odon Telefono: +34 91 383 96 52 Madrid E-mail: info@freelance.es Descripcion Cantidad Precio Importe Evento: Astrazeneca. Montador de pantalla led 08/05/2025 9:00-18:00. 1 200,00 200,00 Montador de pantalla led 09/05/2025 10:00-21:00. 1 240,00 240,00 Montador de pantalla led 10/05/2025 8:00-15:00. 1 200,00 200,00 Por favor al realizar el pago indicar el numero de la factura Base de IVA %IVA Cuota Totales Neto Euros640,00 640,00 21,00 134,40 IVA Euros 134,40 TOTAL Euros774,40 Forma de pago Transferencia Bankinter: ES39 0128 0067 7101 0005 7514 CaixaBank: ES56 2100 3702 6913 0086 9663 Santander: ES89 0030 8118 9302 9776 8273 Registro de Cooperativas de la Comunidad de Madrid, Tomo 34, folio 4269, n° inscripcion 28/CM4269 Pagina 1/1",
+        "entities": [
+            [
+                9,
+                15,
+                "NUMERO_FACTURA"
+            ],
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                287,
+                304,
+                "EMAIL"
+            ]
+        ]
+    },
+    {
+        "text": "FACTURA: 187146 Fecha: 11/06/2025 Socio - Javier Jimenez Ramon - 5535274 CLIENTE Freelance SCM Crambo Alquiler S.L. - 4734 F84278266 B82408428 Av. Monasterio de Silos 13, Local Av. del Sistema Solar, 21 28049, Madrid 28830, San Fernando de Henares Telefono: +34 91 383 96 52 Madrid E-mail: info@freelance.es Descripcion Cantidad Precio Importe Evento: MadRing Montador de pantalla led 5, 6, 7 de junio, en Ifema 05/06/2025 10:00-19:00 1.00 200,00 200,00 06/06/2025 09:00-22:30(4h xtra) 1.00 280,00 280,00 07/06/2025 16:00- 02:30 (2h xtra) 1.00 260,00 260,00 Gastos suplidos 1.00 29,50 29,50 Referencia: AQ16041 Por favor al realizar el pago indicar el numero de la factura Base de IVA %IVA Cuota Totales Neto Euros740,00 Gastos Euros29,50 740,00 21,00 155,40 IVA Euros 155,40 TOTAL Euros924,90 Forma de pago Transferencia Bankinter: ES39 0128 0067 7101 0005 7514 CaixaBank: ES56 2100 3702 6913 0086 9663 Santander: ES89 0030 8118 9302 9776 8273 Registro de Cooperativas de la Comunidad de Madrid, Tomo 34, folio 4269, n° inscripcion 28/CM4269 Pagina 1/1",
+        "entities": [
+            [
+                9,
+                15,
+                "NUMERO_FACTURA"
+            ],
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                290,
+                307,
+                "EMAIL"
+            ]
+        ]
+    },
+    {
+        "text": "FACTURA: 187250 Fecha: 16/06/2025 Socio - Javier Jimenez Ramon - 5535274 CLIENTE Freelance SCM Crambo Alquiler S.L. - 4734 F84278266 B82408428 Av. Monasterio de Silos 13, Local Av. del Sistema Solar, 21 28049, Madrid 28830, San Fernando de Henares Telefono: +34 91 383 96 52 Madrid E-mail: info@freelance.es Descripcion Cantidad Precio Importe REF: AQ15851. Montador de pantalla led para el evento 1 200,00 200,00 de Seventies Bioner. Dia13 junio en el Edificio Mutua Madrilena. Por favor al realizar el pago indicar el numero de la factura Base de IVA %IVA Cuota Totales Neto Euros200,00 200,00 21,00 42,00 IVA Euros 42,00 TOTAL Euros242,00 Forma de pago Transferencia Bankinter: ES39 0128 0067 7101 0005 7514 CaixaBank: ES56 2100 3702 6913 0086 9663 Santander: ES89 0030 8118 9302 9776 8273 Registro de Cooperativas de la Comunidad de Madrid, Tomo 34, folio 4269, n° inscripcion 28/CM4269 Pagina 1/1",
+        "entities": [
+            [
+                9,
+                15,
+                "NUMERO_FACTURA"
+            ],
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                290,
+                307,
+                "EMAIL"
+            ]
+        ]
+    },
+    {
+        "text": "FACTURA: 187768 Fecha: 30/06/2025 Socio - Javier Jimenez Ramon - 5535274 CLIENTE Freelance SCM Visualmax Producciones SL - 13237 F84278266 B86749371 Av. Monasterio de Silos 13, Local Avda. de Francisco Quevedo 17 28049, Madrid 28521, Rivas Vaciamadrid Telefono: +34 91 383 96 52 Madrid E-mail: info@freelance.es Descripcion Cantidad Precio Importe •'Servicio de asistencia de configuracion y montaje NovaStar' 1 1.648,92 1.648,92 •'Sistema Nova actualizado' •Fechas: 16, 18, 20, 25 y 27 junio •N° proyecto: 26936 Por favor al realizar el pago indicar el numero de la factura Base de IVA %IVA Cuota Totales Neto Euros1.648,92 1.648,92 21,00 346,27 IVA Euros 346,27 TOTAL Euros1.995,19 Forma de pago Transferencia Bankinter: ES39 0128 0067 7101 0005 7514 CaixaBank: ES56 2100 3702 6913 0086 9663 Santander: ES89 0030 8118 9302 9776 8273 Registro de Cooperativas de la Comunidad de Madrid, Tomo 34, folio 4269, n° inscripcion 28/CM4269 Pagina 1/1",
+        "entities": [
+            [
+                9,
+                15,
+                "NUMERO_FACTURA"
+            ],
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                294,
+                311,
+                "EMAIL"
+            ]
+        ]
+    },
+    {
+        "text": "FACTURA: 188127 Fecha: 03/07/2025 Socio - Javier Jimenez Ramon - 5535274 CLIENTE Freelance SCM Visualmax Producciones SL - 13237 F84278266 B86749371 Av. Monasterio de Silos 13, Local Avda. de Francisco Quevedo 17 28049, Madrid 28521, Rivas Vaciamadrid Telefono: +34 91 383 96 52 Madrid E-mail: info@freelance.es Descripcion Cantidad Precio Importe Servicio de asistencia en configuracion y montaje 1 395,00 395,00 sistema nova actualizado Fecha 02/07/2025 Nº proyecto: 26936 Por favor al realizar el pago indicar el numero de la factura Base de IVA %IVA Cuota Totales Neto Euros395,00 395,00 21,00 82,95 IVA Euros 82,95 TOTAL Euros477,95 Forma de pago Transferencia Bankinter: ES39 0128 0067 7101 0005 7514 CaixaBank: ES56 2100 3702 6913 0086 9663 Santander: ES89 0030 8118 9302 9776 8273 Registro de Cooperativas de la Comunidad de Madrid, Tomo 34, folio 4269, n° inscripcion 28/CM4269 Pagina 1/1",
+        "entities": [
+            [
+                9,
+                15,
+                "NUMERO_FACTURA"
+            ],
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                294,
+                311,
+                "EMAIL"
+            ]
+        ]
+    },
+    {
+        "text": "FACTURA: 188212 Fecha: 07/07/2025 Socio - Javier Jimenez Ramon - 5535274 CLIENTE Freelance SCM Visualmax Producciones SL - 13237 F84278266 B86749371 Av. Monasterio de Silos 13, Local Avda. de Francisco Quevedo 17 28049, Madrid 28521, Rivas Vaciamadrid Telefono: +34 91 383 96 52 Madrid E-mail: info@freelance.es Descripcion Cantidad Precio Importe Referencia: 26379. Evento de WE PARTY. Configuracion de pantalla led los dias 5 y 6 julio en el Fabrik. 1 590,00 590,00 Por favor al realizar el pago indicar el numero de la factura Base de IVA %IVA Cuota Totales Neto Euros590,00 590,00 21,00 123,90 IVA Euros 123,90 TOTAL Euros713,90 Forma de pago Transferencia Bankinter: ES39 0128 0067 7101 0005 7514 CaixaBank: ES56 2100 3702 6913 0086 9663 Santander: ES89 0030 8118 9302 9776 8273 Registro de Cooperativas de la Comunidad de Madrid, Tomo 34, folio 4269, n° inscripcion 28/CM4269 Pagina 1/1",
+        "entities": [
+            [
+                9,
+                15,
+                "NUMERO_FACTURA"
+            ],
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                294,
+                311,
+                "EMAIL"
+            ]
+        ]
+    },
+    {
+        "text": "FACTURA: 189346 Fecha: 18/08/2025 Socio - Javier Jimenez Ramon - 5535274 CLIENTE Freelance SCM Visualmax Producciones SL - 13237 F84278266 B86749371 Av. Monasterio de Silos 13, Local Avda. de Francisco Quevedo 17 28049, Madrid 28521, Rivas Vaciamadrid Telefono: +34 91 383 96 52 Madrid E-mail: info@freelance.es Descripcion Cantidad Precio Importe Referencia: 26379. Evento de WE PARTY. Configuracion de pantalla led los dias 5 y 6 julio en el Fabrik. 1 590,00 590,00 Por favor al realizar el pago indicar el numero de la factura Base de IVA %IVA Cuota Totales Neto Euros590,00 590,00 21,00 123,90 IVA Euros 123,90 TOTAL Euros713,90 Forma de pago Transferencia Bankinter: ES39 0128 0067 7101 0005 7514 CaixaBank: ES56 2100 3702 6913 0086 9663 Santander: ES89 0030 8118 9302 9776 8273 Registro de Cooperativas de la Comunidad de Madrid, Tomo 34, folio 4269, n° inscripcion 28/CM4269 Pagina 1/1",
+        "entities": [
+            [
+                9,
+                15,
+                "NUMERO_FACTURA"
+            ],
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                294,
+                311,
+                "EMAIL"
+            ]
+        ]
+    },
+    {
+        "text": "FACTURA: 189806 Fecha: 02/09/2025 Socio - Javier Jimenez Ramon - 5535274 CLIENTE Freelance SCM LAST LAP - 5359 F84278266 B80891211 Av. Monasterio de Silos 13, Local La Granja 22 28049, Madrid 28108, ALCOBENDAS Telefono: +34 91 383 96 52 Madrid E-mail: info@freelance.es Descripcion Cantidad Precio Importe Dias 30 agosto y 1 de septiembre, en el Museo del Ferrocarril de Delicias, como montador de pantalla led, para el evento de 'Back to Hogwarts' Referencia: LOC052979. 30/08/2025 1 250,00 250,00 01/09/2025 1 300,00 300,00 Por favor al realizar el pago indicar el numero de la factura Base de IVA %IVA Cuota Totales Neto Euros550,00 550,00 21,00 115,50 IVA Euros 115,50 TOTAL Euros665,50 Forma de pago Transferencia Bankinter: ES39 0128 0067 7101 0005 7514 CaixaBank: ES56 2100 3702 6913 0086 9663 Santander: ES89 0030 8118 9302 9776 8273 Registro de Cooperativas de la Comunidad de Madrid, Tomo 34, folio 4269, n° inscripcion 28/CM4269 Pagina 1/1",
+        "entities": [
+            [
+                9,
+                15,
+                "NUMERO_FACTURA"
+            ],
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                252,
+                269,
+                "EMAIL"
+            ]
+        ]
+    },
+    {
+        "text": "FACTURA: 190269 Fecha: 19/09/2025 Socio - Javier Jimenez Ramon - 5535274 CLIENTE Freelance SCM DAIGON MULTIMEDIA S.L - 7041 F84278266 B81171746 Av. Monasterio de Silos 13, Local C/ Calle florida Nave n6 28049, Madrid 28670, Villaviciosa de odon Telefono: +34 91 383 96 52 Madrid E-mail: info@freelance.es Descripcion Cantidad Precio Importe Evento: Astraczeneca. Montador de pantalla led. Dia 18 de septiembre. Museo Reina Sofia. 18/09/2025 10:00-19:30. 1.00 260,00 260,00 Por favor al realizar el pago indicar el numero de la factura Base de IVA %IVA Cuota Totales Neto Euros260,00 260,00 21,00 54,60 IVA Euros 54,60 TOTAL Euros314,60 Forma de pago Transferencia Bankinter: ES39 0128 0067 7101 0005 7514 CaixaBank: ES56 2100 3702 6913 0086 9663 Santander: ES89 0030 8118 9302 9776 8273 Registro de Cooperativas de la Comunidad de Madrid, Tomo 34, folio 4269, n° inscripcion 28/CM4269 Pagina 1/1",
+        "entities": [
+            [
+                9,
+                15,
+                "NUMERO_FACTURA"
+            ],
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                287,
+                304,
+                "EMAIL"
+            ]
+        ]
+    }
+]

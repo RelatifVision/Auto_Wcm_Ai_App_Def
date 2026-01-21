@@ -1,0 +1,896 @@
+[
+    {
+        "nombre_archivo": "FACTURA 182454 Visualmax Producciones SL (1).txt",
+        "tipo_documento": "FACTURA",
+        "precision": 0.125,
+        "recall": 0.5,
+        "f1_score": 0.2,
+        "entidades_esperadas": [
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                611,
+                619,
+                "IMPORTE_TOTAL"
+            ]
+        ],
+        "entidades_predichas": [
+            [
+                9,
+                15,
+                "NUMERO_FACTURA"
+            ],
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                81,
+                128,
+                "NOMBRE_CLIENTE"
+            ],
+            [
+                129,
+                138,
+                "CIF_CLIENTE"
+            ],
+            [
+                570,
+                575,
+                "IVA_PORCENTAJE"
+            ],
+            [
+                576,
+                582,
+                "IVA_IMPORTE"
+            ],
+            [
+                1030,
+                1039,
+                "CIF_CLIENTE"
+            ],
+            [
+                1045,
+                1054,
+                "CIF_CLIENTE"
+            ]
+        ],
+        "texto_fragmento": "FACTURA: 182454\nFecha: 31/12/2024\nSocio - Javier Jimenez Ramon - 5535274 CLIENTE\nFreelance SCM Visualmax Producciones SL - 13237\nF84278266 B86749371\nAv. Monasterio de Silos 13 , Local Avda. de Francis..."
+    },
+    {
+        "nombre_archivo": "FACTURA 182689 Peak Produccion Técnica SL.txt",
+        "tipo_documento": "FACTURA",
+        "precision": 0.16666666666666666,
+        "recall": 0.5,
+        "f1_score": 0.25,
+        "entidades_esperadas": [
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                583,
+                589,
+                "IMPORTE_TOTAL"
+            ]
+        ],
+        "entidades_predichas": [
+            [
+                9,
+                15,
+                "NUMERO_FACTURA"
+            ],
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                81,
+                129,
+                "NOMBRE_CLIENTE"
+            ],
+            [
+                130,
+                139,
+                "CIF_CLIENTE"
+            ],
+            [
+                542,
+                547,
+                "IVA_PORCENTAJE"
+            ],
+            [
+                548,
+                554,
+                "IVA_IMPORTE"
+            ]
+        ],
+        "texto_fragmento": "FACTURA: 182689\nFecha: 15/01/2025\nSocio - Javier Jimenez Ramon - 5535274 CLIENTE\nFreelance SCM Peak Produccion Técnica SL - 20644\nF84278266 B87032736\nAv. Monasterio de Silos 13 , Local C / Constelació..."
+    },
+    {
+        "nombre_archivo": "FACTURA 182909 Visualmax Producciones SL (1).txt",
+        "tipo_documento": "FACTURA",
+        "precision": 0.16666666666666666,
+        "recall": 0.5,
+        "f1_score": 0.25,
+        "entidades_esperadas": [
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                1110,
+                1118,
+                "IMPORTE_TOTAL"
+            ]
+        ],
+        "entidades_predichas": [
+            [
+                9,
+                15,
+                "NUMERO_FACTURA"
+            ],
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                81,
+                128,
+                "NOMBRE_CLIENTE"
+            ],
+            [
+                129,
+                138,
+                "CIF_CLIENTE"
+            ],
+            [
+                1069,
+                1074,
+                "IVA_PORCENTAJE"
+            ],
+            [
+                1075,
+                1081,
+                "IVA_IMPORTE"
+            ]
+        ],
+        "texto_fragmento": "FACTURA: 182909\nFecha: 24/01/2025\nSocio - Javier Jimenez Ramon - 5535274 CLIENTE\nFreelance SCM Visualmax Producciones SL - 13237\nF84278266 B86749371\nAv. Monasterio de Silos 13 , Local Avda. de Francis..."
+    },
+    {
+        "nombre_archivo": "FACTURA 184326 Visualmax Producciones SL (1).txt",
+        "tipo_documento": "FACTURA",
+        "precision": 0.16666666666666666,
+        "recall": 0.5,
+        "f1_score": 0.25,
+        "entidades_esperadas": [
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                625,
+                631,
+                "IMPORTE_TOTAL"
+            ]
+        ],
+        "entidades_predichas": [
+            [
+                9,
+                15,
+                "NUMERO_FACTURA"
+            ],
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                81,
+                128,
+                "NOMBRE_CLIENTE"
+            ],
+            [
+                129,
+                138,
+                "CIF_CLIENTE"
+            ],
+            [
+                586,
+                591,
+                "IVA_PORCENTAJE"
+            ],
+            [
+                592,
+                597,
+                "IVA_IMPORTE"
+            ]
+        ],
+        "texto_fragmento": "FACTURA: 184326\nFecha: 17/03/2025\nSocio - Javier Jimenez Ramon - 5535274 CLIENTE\nFreelance SCM Visualmax Producciones SL - 13237\nF84278266 B86749371\nAv. Monasterio de Silos 13 , Local Avda. de Francis..."
+    },
+    {
+        "nombre_archivo": "FACTURA 184726 Juan Andres Rojas Pradenas (3).txt",
+        "tipo_documento": "FACTURA",
+        "precision": 0.16666666666666666,
+        "recall": 0.5,
+        "f1_score": 0.25,
+        "entidades_esperadas": [
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                547,
+                553,
+                "IMPORTE_TOTAL"
+            ]
+        ],
+        "entidades_predichas": [
+            [
+                9,
+                15,
+                "NUMERO_FACTURA"
+            ],
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                81,
+                129,
+                "NOMBRE_CLIENTE"
+            ],
+            [
+                130,
+                139,
+                "CIF_CLIENTE"
+            ],
+            [
+                508,
+                513,
+                "IVA_PORCENTAJE"
+            ],
+            [
+                514,
+                519,
+                "IVA_IMPORTE"
+            ]
+        ],
+        "texto_fragmento": "FACTURA: 184726\nFecha: 31/03/2025\nSocio - Javier Jimenez Ramon - 5535274 CLIENTE\nFreelance SCM Juan Andres Rojas Pradenas - 24364\nF84278266 47034296D\nAv. Monasterio de Silos 13 , Local C/ de la Cruz v..."
+    },
+    {
+        "nombre_archivo": "FACTURA 184752 Juan Andres Rojas Pradenas.txt",
+        "tipo_documento": "FACTURA",
+        "precision": 0.16666666666666666,
+        "recall": 0.5,
+        "f1_score": 0.25,
+        "entidades_esperadas": [
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                656,
+                662,
+                "IMPORTE_TOTAL"
+            ]
+        ],
+        "entidades_predichas": [
+            [
+                9,
+                15,
+                "NUMERO_FACTURA"
+            ],
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                81,
+                129,
+                "NOMBRE_CLIENTE"
+            ],
+            [
+                130,
+                139,
+                "CIF_CLIENTE"
+            ],
+            [
+                617,
+                622,
+                "IVA_PORCENTAJE"
+            ],
+            [
+                623,
+                628,
+                "IVA_IMPORTE"
+            ]
+        ],
+        "texto_fragmento": "FACTURA: 184752\nFecha: 31/03/2025\nSocio - Javier Jimenez Ramon - 5535274 CLIENTE\nFreelance SCM Juan Andres Rojas Pradenas - 24364\nF84278266 47034296D\nAv. Monasterio de Silos 13 , Local C/ de la Cruz v..."
+    },
+    {
+        "nombre_archivo": "FACTURA 185540 TELEPIXEL S.L.U (1).txt",
+        "tipo_documento": "FACTURA",
+        "precision": 0.16666666666666666,
+        "recall": 0.5,
+        "f1_score": 0.25,
+        "entidades_esperadas": [
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                569,
+                575,
+                "IMPORTE_TOTAL"
+            ]
+        ],
+        "entidades_predichas": [
+            [
+                9,
+                15,
+                "NUMERO_FACTURA"
+            ],
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                81,
+                116,
+                "NOMBRE_CLIENTE"
+            ],
+            [
+                117,
+                126,
+                "CIF_CLIENTE"
+            ],
+            [
+                530,
+                535,
+                "IVA_PORCENTAJE"
+            ],
+            [
+                536,
+                541,
+                "IVA_IMPORTE"
+            ]
+        ],
+        "texto_fragmento": "FACTURA: 185540\nFecha: 28/04/2025\nSocio - Javier Jimenez Ramon - 5535274 CLIENTE\nFreelance SCM TELEPIXEL S.L - 23239\nF84278266 B72489826\nAv. Monasterio de Silos 13 , Local Calle de Pozuelo 14, local 2..."
+    },
+    {
+        "nombre_archivo": "FACTURA 186045 DAIGON MULTIMEDIA S.L (1).txt",
+        "tipo_documento": "FACTURA",
+        "precision": 0.16666666666666666,
+        "recall": 0.5,
+        "f1_score": 0.25,
+        "entidades_esperadas": [
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                714,
+                720,
+                "IMPORTE_TOTAL"
+            ]
+        ],
+        "entidades_predichas": [
+            [
+                9,
+                15,
+                "NUMERO_FACTURA"
+            ],
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                81,
+                123,
+                "NOMBRE_CLIENTE"
+            ],
+            [
+                124,
+                133,
+                "CIF_CLIENTE"
+            ],
+            [
+                673,
+                678,
+                "IVA_PORCENTAJE"
+            ],
+            [
+                679,
+                685,
+                "IVA_IMPORTE"
+            ]
+        ],
+        "texto_fragmento": "FACTURA: 186045\nFecha: 12/05/2025\nSocio - Javier Jimenez Ramon - 5535274 CLIENTE\nFreelance SCM DAIGON MULTIMEDIA S.L - 7041\nF84278266 B81171746\nAv. Monasterio de Silos 13 , Local C/ Calle florida Nave..."
+    },
+    {
+        "nombre_archivo": "FACTURA 186045 DAIGON MULTIMEDIA S.L (2).txt",
+        "tipo_documento": "FACTURA",
+        "precision": 0.16666666666666666,
+        "recall": 0.5,
+        "f1_score": 0.25,
+        "entidades_esperadas": [
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                714,
+                720,
+                "IMPORTE_TOTAL"
+            ]
+        ],
+        "entidades_predichas": [
+            [
+                9,
+                15,
+                "NUMERO_FACTURA"
+            ],
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                81,
+                123,
+                "NOMBRE_CLIENTE"
+            ],
+            [
+                124,
+                133,
+                "CIF_CLIENTE"
+            ],
+            [
+                673,
+                678,
+                "IVA_PORCENTAJE"
+            ],
+            [
+                679,
+                685,
+                "IVA_IMPORTE"
+            ]
+        ],
+        "texto_fragmento": "FACTURA: 186045\nFecha: 12/05/2025\nSocio - Javier Jimenez Ramon - 5535274 CLIENTE\nFreelance SCM DAIGON MULTIMEDIA S.L - 7041\nF84278266 B81171746\nAv. Monasterio de Silos 13 , Local C/ Calle florida Nave..."
+    },
+    {
+        "nombre_archivo": "FACTURA 187146 CRAMBO ALQUILER (2).txt",
+        "tipo_documento": "FACTURA",
+        "precision": 0.16666666666666666,
+        "recall": 0.5,
+        "f1_score": 0.25,
+        "entidades_esperadas": [
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                788,
+                794,
+                "IMPORTE_TOTAL"
+            ]
+        ],
+        "entidades_predichas": [
+            [
+                9,
+                15,
+                "NUMERO_FACTURA"
+            ],
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                81,
+                122,
+                "NOMBRE_CLIENTE"
+            ],
+            [
+                123,
+                132,
+                "CIF_CLIENTE"
+            ],
+            [
+                747,
+                752,
+                "IVA_PORCENTAJE"
+            ],
+            [
+                753,
+                759,
+                "IVA_IMPORTE"
+            ]
+        ],
+        "texto_fragmento": "FACTURA: 187146\nFecha: 11/06/2025\nSocio - Javier Jimenez Ramon - 5535274 CLIENTE\nFreelance SCM Crambo Alquiler S.L. - 4734\nF84278266 B82408428\nAv. Monasterio de Silos 13 , Local Av. del Sistema Solar,..."
+    },
+    {
+        "nombre_archivo": "FACTURA 187250 Crambo Alquiler S.L..txt",
+        "tipo_documento": "FACTURA",
+        "precision": 0.16666666666666666,
+        "recall": 0.5,
+        "f1_score": 0.25,
+        "entidades_esperadas": [
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                636,
+                642,
+                "IMPORTE_TOTAL"
+            ]
+        ],
+        "entidades_predichas": [
+            [
+                9,
+                15,
+                "NUMERO_FACTURA"
+            ],
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                81,
+                122,
+                "NOMBRE_CLIENTE"
+            ],
+            [
+                123,
+                132,
+                "CIF_CLIENTE"
+            ],
+            [
+                597,
+                602,
+                "IVA_PORCENTAJE"
+            ],
+            [
+                603,
+                608,
+                "IVA_IMPORTE"
+            ]
+        ],
+        "texto_fragmento": "FACTURA: 187250\nFecha: 16/06/2025\nSocio - Javier Jimenez Ramon - 5535274 CLIENTE\nFreelance SCM Crambo Alquiler S.L. - 4734\nF84278266 B82408428\nAv. Monasterio de Silos 13 , Local Av. del Sistema Solar,..."
+    },
+    {
+        "nombre_archivo": "FACTURA 187768 Visualmax Producciones SL (2).txt",
+        "tipo_documento": "FACTURA",
+        "precision": 0.16666666666666666,
+        "recall": 0.5,
+        "f1_score": 0.25,
+        "entidades_esperadas": [
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                676,
+                684,
+                "IMPORTE_TOTAL"
+            ]
+        ],
+        "entidades_predichas": [
+            [
+                9,
+                15,
+                "NUMERO_FACTURA"
+            ],
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                81,
+                128,
+                "NOMBRE_CLIENTE"
+            ],
+            [
+                129,
+                138,
+                "CIF_CLIENTE"
+            ],
+            [
+                635,
+                640,
+                "IVA_PORCENTAJE"
+            ],
+            [
+                641,
+                647,
+                "IVA_IMPORTE"
+            ]
+        ],
+        "texto_fragmento": "FACTURA: 187768\nFecha: 30/06/2025\nSocio - Javier Jimenez Ramon - 5535274 CLIENTE\nFreelance SCM Visualmax Producciones SL - 13237\nF84278266 B86749371\nAv. Monasterio de Silos 13 , Local Avda. de Francis..."
+    },
+    {
+        "nombre_archivo": "FACTURA 188127 Visualmax Producciones SL_DGARDEN_I.txt",
+        "tipo_documento": "FACTURA",
+        "precision": 0.16666666666666666,
+        "recall": 0.5,
+        "f1_score": 0.25,
+        "entidades_esperadas": [
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                632,
+                638,
+                "IMPORTE_TOTAL"
+            ]
+        ],
+        "entidades_predichas": [
+            [
+                9,
+                15,
+                "NUMERO_FACTURA"
+            ],
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                81,
+                128,
+                "NOMBRE_CLIENTE"
+            ],
+            [
+                129,
+                138,
+                "CIF_CLIENTE"
+            ],
+            [
+                593,
+                598,
+                "IVA_PORCENTAJE"
+            ],
+            [
+                599,
+                604,
+                "IVA_IMPORTE"
+            ]
+        ],
+        "texto_fragmento": "FACTURA: 188127\nFecha: 03/07/2025\nSocio - Javier Jimenez Ramon - 5535274 CLIENTE\nFreelance SCM Visualmax Producciones SL - 13237\nF84278266 B86749371\nAv. Monasterio de Silos 13 , Local Avda. de Francis..."
+    },
+    {
+        "nombre_archivo": "FACTURA 188212 Visualmax Producciones SL_WE_PARTY (1) (1).txt",
+        "tipo_documento": "FACTURA",
+        "precision": 0.16666666666666666,
+        "recall": 0.5,
+        "f1_score": 0.25,
+        "entidades_esperadas": [
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                627,
+                633,
+                "IMPORTE_TOTAL"
+            ]
+        ],
+        "entidades_predichas": [
+            [
+                9,
+                15,
+                "NUMERO_FACTURA"
+            ],
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                81,
+                128,
+                "NOMBRE_CLIENTE"
+            ],
+            [
+                129,
+                138,
+                "CIF_CLIENTE"
+            ],
+            [
+                586,
+                591,
+                "IVA_PORCENTAJE"
+            ],
+            [
+                592,
+                598,
+                "IVA_IMPORTE"
+            ]
+        ],
+        "texto_fragmento": "FACTURA: 188212\nFecha: 07/07/2025\nSocio - Javier Jimenez Ramon - 5535274 CLIENTE\nFreelance SCM Visualmax Producciones SL - 13237\nF84278266 B86749371\nAv. Monasterio de Silos 13 , Local Avda. de Francis..."
+    },
+    {
+        "nombre_archivo": "FACTURA 189346 Visualmax Producciones SL.txt",
+        "tipo_documento": "FACTURA",
+        "precision": 0.16666666666666666,
+        "recall": 0.5,
+        "f1_score": 0.25,
+        "entidades_esperadas": [
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                627,
+                633,
+                "IMPORTE_TOTAL"
+            ]
+        ],
+        "entidades_predichas": [
+            [
+                9,
+                15,
+                "NUMERO_FACTURA"
+            ],
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                81,
+                128,
+                "NOMBRE_CLIENTE"
+            ],
+            [
+                129,
+                138,
+                "CIF_CLIENTE"
+            ],
+            [
+                586,
+                591,
+                "IVA_PORCENTAJE"
+            ],
+            [
+                592,
+                598,
+                "IVA_IMPORTE"
+            ]
+        ],
+        "texto_fragmento": "FACTURA: 189346\nFecha: 18/08/2025\nSocio - Javier Jimenez Ramon - 5535274 CLIENTE\nFreelance SCM Visualmax Producciones SL - 13237\nF84278266 B86749371\nAv. Monasterio de Silos 13 , Local Avda. de Francis..."
+    },
+    {
+        "nombre_archivo": "FACTURA 189806 LAST LAP (3).txt",
+        "tipo_documento": "FACTURA",
+        "precision": 0.16666666666666666,
+        "recall": 0.5,
+        "f1_score": 0.25,
+        "entidades_esperadas": [
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                685,
+                691,
+                "IMPORTE_TOTAL"
+            ]
+        ],
+        "entidades_predichas": [
+            [
+                9,
+                15,
+                "NUMERO_FACTURA"
+            ],
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                81,
+                110,
+                "NOMBRE_CLIENTE"
+            ],
+            [
+                111,
+                120,
+                "CIF_CLIENTE"
+            ],
+            [
+                644,
+                649,
+                "IVA_PORCENTAJE"
+            ],
+            [
+                650,
+                656,
+                "IVA_IMPORTE"
+            ]
+        ],
+        "texto_fragmento": "FACTURA: 189806\nFecha: 02/09/2025\nSocio - Javier Jimenez Ramon - 5535274 CLIENTE\nFreelance SCM LAST LAP - 5359\nF84278266 B80891211\nAv. Monasterio de Silos 13 , Local La Granja 22\n28049, Madrid 28108, ..."
+    },
+    {
+        "nombre_archivo": "FACTURA 190269 DAIGON MULTIMEDIA S.L.txt",
+        "tipo_documento": "FACTURA",
+        "precision": 0.16666666666666666,
+        "recall": 0.5,
+        "f1_score": 0.25,
+        "entidades_esperadas": [
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                630,
+                636,
+                "IMPORTE_TOTAL"
+            ]
+        ],
+        "entidades_predichas": [
+            [
+                9,
+                15,
+                "NUMERO_FACTURA"
+            ],
+            [
+                23,
+                33,
+                "FECHA_EMISION"
+            ],
+            [
+                81,
+                123,
+                "NOMBRE_CLIENTE"
+            ],
+            [
+                124,
+                133,
+                "CIF_CLIENTE"
+            ],
+            [
+                591,
+                596,
+                "IVA_PORCENTAJE"
+            ],
+            [
+                597,
+                602,
+                "IVA_IMPORTE"
+            ]
+        ],
+        "texto_fragmento": "FACTURA: 190269\nFecha: 19/09/2025\nSocio - Javier Jimenez Ramon - 5535274 CLIENTE\nFreelance SCM DAIGON MULTIMEDIA S.L - 7041\nF84278266 B81171746\nAv. Monasterio de Silos 13 , Local C/ Calle florida Nave..."
+    }
+]

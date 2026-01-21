@@ -1,0 +1,24 @@
+{
+    "modelo_spaCy": {
+        "status": "loaded",
+        "labels": [
+            "EMAIL",
+            "FECHA_EMISION",
+            "LOC",
+            "MISC",
+            "NUMERO_FACTURA",
+            "ORG",
+            "PER"
+        ],
+        "detected_entities": [
+            [
+                "182454",
+                "NUMERO_FACTURA"
+            ]
+        ]
+    },
+    "modelo_huggingface": {
+        "status": "not_available",
+        "models_available": []
+    }
+}

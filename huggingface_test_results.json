@@ -1,0 +1,80 @@
+{
+    "spanish_roberta": {
+        "success": false
+    },
+    "spanish_bert": {
+        "success": true,
+        "entities": [
+            {
+                "text": "FAC",
+                "label": "LABEL_1",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "text": "##TURA : 182",
+                "label": "LABEL_0",
+                "start": 3,
+                "end": 12
+            },
+            {
+                "text": "##454 Fecha",
+                "label": "LABEL_1",
+                "start": 12,
+                "end": 21
+            },
+            {
+                "text": ":",
+                "label": "LABEL_0",
+                "start": 21,
+                "end": 22
+            },
+            {
+                "text": "31 / 12 / 2024",
+                "label": "LABEL_1",
+                "start": 23,
+                "end": 33
+            }
+        ],
+        "model": "dccuchile/bert-base-spanish-wwm-cased"
+    },
+    "multilingual": {
+        "success": true,
+        "entities": [
+            {
+                "text": "FACTURA : 182454",
+                "label": "LABEL_1",
+                "start": 0,
+                "end": 15
+            },
+            {
+                "text": "Fecha",
+                "label": "LABEL_0",
+                "start": 16,
+                "end": 21
+            },
+            {
+                "text": ": 31",
+                "label": "LABEL_1",
+                "start": 21,
+                "end": 25
+            },
+            {
+                "text": "/ 12",
+                "label": "LABEL_0",
+                "start": 25,
+                "end": 28
+            },
+            {
+                "text": "/ 2024",
+                "label": "LABEL_1",
+                "start": 28,
+                "end": 33
+            }
+        ],
+        "model": "bert-base-multilingual-cased"
+    },
+    "basic_spanish": {
+        "success": false
+    }
+}

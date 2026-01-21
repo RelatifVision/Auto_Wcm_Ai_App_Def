@@ -1,0 +1,24 @@
+{
+    "modelo_original": {
+        "load_time": 1.5825340747833252,
+        "labels": [
+            "EMAIL",
+            "FECHA_EMISION",
+            "LOC",
+            "MISC",
+            "NUMERO_FACTURA",
+            "ORG",
+            "PER"
+        ],
+        "detected_entities": [
+            [
+                "182454",
+                "NUMERO_FACTURA"
+            ]
+        ],
+        "status": "loaded_successfully"
+    },
+    "modelo_mejorado": {
+        "status": "not_found"
+    }
+}
