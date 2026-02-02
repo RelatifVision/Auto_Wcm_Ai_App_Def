@@ -2,9 +2,9 @@ from PyQt6.QtWidgets import QMessageBox, QDialog, QFormLayout, QHBoxLayout, QLin
 from PyQt6.QtGui import QColor
 import pandas as pd
 import re
-from utils.excel_utils import load_dataframe
+from utils.excel_utils import load_dataframe, get_sheet_name, save_dataframe
 from config import EXCEL_FILE_PATH
-
+from PyQt6.QtCore import Qt
 class ColorPreviewButton(QPushButton):
     """Botón que muestra un color y abre un selector al hacer clic."""
     def __init__(self, initial_color="#333333", parent=None):
@@ -69,35 +69,54 @@ class ColorWidget(QWidget):
         return self.color_hex
 
 def load_gestion_data(window):
+    """Cargar datos de empresas y cooperativas."""
     try:
-        window.df_empresa = load_dataframe(EXCEL_FILE_PATH, sheet_name='datos_empresa')
-        window.df_cooperativa = load_dataframe(EXCEL_FILE_PATH, sheet_name='datos_cooperativas')
+        # Cargar empresas
+        window.df_empresa = pd.read_excel(EXCEL_FILE_PATH, sheet_name='datos_empresa', dtype=str)
+        window.df_empresa = window.df_empresa.fillna('')
+        
+        # Cargar cooperativas
+        window.df_cooperativa = pd.read_excel(EXCEL_FILE_PATH, sheet_name='datos_cooperativas', dtype=str)
+        window.df_cooperativa = window.df_cooperativa.fillna('')
+        
         window.display_data()
     except Exception as e:
-        QMessageBox.critical(window, "Error", f"Error al cargar datos: {e}")
+        QMessageBox.critical(window, "Error", f"Error al cargar datos:\n{str(e)}")
 
 def display_table(table, df):
-    """
-    Mostrar los datos en una tabla específica.
-    """
-    table.clear()
+    """Mostrar datos en tabla."""
     table.setRowCount(0)
     table.setColumnCount(len(df.columns))
-    table.setHorizontalHeaderLabels(df.columns)
-    table.setEditTriggers(QTableWidget.EditTrigger.AllEditTriggers)
+    table.setHorizontalHeaderLabels(df.columns.tolist())
+    
     for i, row in df.iterrows():
         table.insertRow(i)
         for j, value in enumerate(row):
-            if df.columns[j] == "Color":
-                # Crear widget de color
-                color_widget = ColorWidget(value if pd.notna(value) else "#000000")
-                table.setCellWidget(i, j, color_widget)
-            else:
-                item = QTableWidgetItem(str(value) if pd.notna(value) else "")
-                table.setItem(i, j, item)
-    # Ajustar el tamaño de las columnas para que se muestren completas
-    table.resizeColumnsToContents()
-    table.resizeRowsToContents()
+            table.setItem(i, j, table.item(i, j) if table.item(i, j) else None)
+            table.setItem(i, j, type(table.item(i, j) or QTableWidgetItem())(str(value)))
+
+def save_inline_entry(window, entry_type):
+    """Guardar cambios editados directamente en la tabla."""
+    try:
+        df = getattr(window, f'df_{entry_type}')
+        table = window.table_empresa if entry_type == 'empresa' else window.table_coop
+        sheet_name = 'datos_empresa' if entry_type == 'empresa' else 'datos_cooperativas'
+        
+        # Actualizar DataFrame con valores de la tabla
+        for row in range(table.rowCount()):
+            for col in range(table.columnCount()):
+                item = table.item(row, col)
+                if item:
+                    df.iat[row, col] = item.text().strip()
+        
+        # Guardar en Excel
+        with pd.ExcelWriter(EXCEL_FILE_PATH, engine='openpyxl', mode='a', if_sheet_exists='replace') as writer:
+            df.to_excel(writer, sheet_name=sheet_name, index=False)
+        
+        QMessageBox.information(window, "Éxito", f"Datos de {entry_type} guardados.")
+        
+    except Exception as e:
+        QMessageBox.critical(window, "Error", f"Error al guardar:\n{str(e)}")
 
 def create_entry(window, entry_type):
     dialog = QDialog(window)
@@ -175,16 +194,23 @@ def save_entry(window, dialog, entry_type, inputs):
         if new_entry is None:
             return
 
-        df = load_dataframe(EXCEL_FILE_PATH, sheet_name=f'datos_{entry_type}')
+        # Usar mapeo correcto de hoja
+        sheet_name = get_sheet_name(entry_type)
+        
+        df = load_dataframe(EXCEL_FILE_PATH, sheet_name=sheet_name)
         if df is None:
             df = pd.DataFrame([new_entry])
         else:
             df = pd.concat([df, pd.DataFrame([new_entry])], ignore_index=True)
 
         with pd.ExcelWriter(EXCEL_FILE_PATH, engine='openpyxl', mode='a', if_sheet_exists='replace') as writer:
-            df.to_excel(writer, sheet_name=f'datos_{entry_type}', index=False)
+            df.to_excel(writer, sheet_name=sheet_name, index=False)
+        
+        # Recargar ambos DataFrames para mantener sincronización
         load_gestion_data(window)
         dialog.accept()
+        QMessageBox.information(window, "Éxito", f"Entrada de {entry_type} creada correctamente.")
+        
     except Exception as e:
         QMessageBox.critical(window, "Error", f"Error al guardar la entrada: {e}")
         dialog.reject()
@@ -196,52 +222,24 @@ def save_edited_entry(window, dialog, entry_type, selected_row, inputs):
         if updated_entry is None:
             return
 
+        # Usar mapeo correcto de hoja
+        sheet_name = get_sheet_name(entry_type)
         df = getattr(window, f'df_{entry_type}')
+        
         for field in inputs:
             df.at[selected_row, field] = updated_entry[field]
 
         with pd.ExcelWriter(EXCEL_FILE_PATH, engine='openpyxl', mode='a', if_sheet_exists='replace') as writer:
-            df.to_excel(writer, sheet_name=f'datos_{entry_type}', index=False)
+            df.to_excel(writer, sheet_name=sheet_name, index=False)
+        
+        # Recargar ambos DataFrames
         load_gestion_data(window)
         dialog.accept()
+        QMessageBox.information(window, "Éxito", f"Entrada de {entry_type} actualizada correctamente.")
+        
     except Exception as e:
         QMessageBox.critical(window, "Error", f"Error al guardar los cambios: {e}")
         dialog.reject()
-
-def save_inline_entry(window, entry_type):
-    try:
-        df = getattr(window, f'df_{entry_type}')
-        table = window.table_empresa if entry_type == 'empresa' else window.table_coop
-
-        if table.rowCount() != len(df):
-            QMessageBox.warning(window, "Advertencia", "El número de filas no coincide. Recargue los datos.")
-            return
-
-        for row in range(table.rowCount()):
-            for col in range(table.columnCount()):
-                if df.columns[col] == "Color":
-                    # Obtener el widget de color
-                    color_widget = table.cellWidget(row, col)
-                    if color_widget:
-                        new_value = color_widget.get_color()
-                    else:
-                        new_value = ""
-                else:
-                    item = table.item(row, col)
-                    new_value = item.text().strip() if item and item.text() else ""
-
-                # Solo actualizar si el valor ha cambiado
-                if str(df.iloc[row, col]) != new_value:
-                    df.iloc[row, col] = new_value
-
-        with pd.ExcelWriter(EXCEL_FILE_PATH, engine='openpyxl', mode='a', if_sheet_exists='replace') as writer:
-            df.to_excel(writer, sheet_name=f'datos_{entry_type}', index=False)
-
-        QMessageBox.information(window, "Éxito", f"Datos de {entry_type} guardados correctamente.")
-        load_gestion_data(window)
-
-    except Exception as e:
-        QMessageBox.critical(window, "Error", f"Error al guardar los cambios: {str(e)}")
 
 def delete_entry(window, entry_type):
     selected_row = get_selected_row(window, entry_type)
@@ -252,19 +250,25 @@ def delete_entry(window, entry_type):
     confirm = QMessageBox.question(
         window,
         "Confirmar Eliminación",
-        "¿Está seguro de que desea eliminar esta entrada?",
+        f"¿Está seguro de que desea eliminar esta entrada de {entry_type}?",
         QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No
     )
     if confirm != QMessageBox.StandardButton.Yes:
         return
 
+    # Usar mapeo correcto de hoja
+    sheet_name = get_sheet_name(entry_type)
     df = getattr(window, f'df_{entry_type}')
+    
     df.drop(index=selected_row, inplace=True)
     df.reset_index(drop=True, inplace=True)
 
     with pd.ExcelWriter(EXCEL_FILE_PATH, engine='openpyxl', mode='a', if_sheet_exists='replace') as writer:
-        df.to_excel(writer, sheet_name=f'datos_{entry_type}', index=False)
+        df.to_excel(writer, sheet_name=sheet_name, index=False)
+    
+    # Recargar ambos DataFrames
     load_gestion_data(window)
+    QMessageBox.information(window, "Éxito", f"Entrada de {entry_type} eliminada correctamente.")
 
 def get_fields(entry_type):
     if entry_type == 'empresa':
@@ -284,10 +288,10 @@ def validate_entry(entry, entry_type):
                 QMessageBox.warning(None, "Advertencia", f"El campo '{field}' debe ser un número válido.")
                 return None
     elif entry_type == 'cooperativa':
-        if not entry["ID_Coop"].isdigit():
-            QMessageBox.warning(None, "Advertencia", "El ID de la cooperativa debe ser un número entero.")
+        # Convertir explícitamente a cadena para validación
+        if not str(entry["ID_Empresa"]).isdigit():
+            QMessageBox.warning(None, "Advertencia", "El ID de la empresa debe ser un número entero.")
             return None
-    return entry
 
 def get_selected_row(window, entry_type):
     if entry_type == 'empresa':
